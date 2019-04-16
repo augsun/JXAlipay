@@ -53,13 +53,6 @@ static JXAlipayManager *singleton_;
 }
 
 - (void)payResultCallBack:(NSDictionary *)resultDic {
-    /*
-     9000    订单支付成功
-     8000    正在处理中
-     4000    订单支付失败
-     6001    用户中途取消
-     6002    网络连接出错
-     */
     NSString *resultStatus_string = [NSString stringWithFormat:@"%@", resultDic[@"resultStatus"]];
     NSInteger resultStatus = [resultStatus_string integerValue];
     JXAlipayResult result = JXAlipayResultFailure;
@@ -77,6 +70,14 @@ static JXAlipayManager *singleton_;
 }
 
 @end
+
+#if 0
+9000    订单支付成功
+8000    正在处理中
+4000    订单支付失败
+6001    用户中途取消
+6002    网络连接出错
+#endif
 
 
 
