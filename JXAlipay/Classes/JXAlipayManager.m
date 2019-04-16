@@ -10,9 +10,11 @@
 #import <UIKit/UIKit.h>
 #import <AlipaySDK/AlipaySDK.h>
 
+#define JX_BLOCK_EXEC(block, ...) !block ? nil : block(__VA_ARGS__)
+
 @interface JXAlipayManager ()
 
-@property (nonatomic, copy) void (^payResult)(JXAlipayResult result, NSString *memo, NSString *resultSign);
+@property (nonatomic, copy) JXAlipayResultCallBack payResultCallBack;
 
 @end
 
@@ -21,11 +23,14 @@
 static JXAlipayManager *singleton_;
 + (instancetype)sharedAlipay {
     static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{ singleton_ = [[self alloc] init]; }); return singleton_;
+    dispatch_once(&onceToken, ^{
+        singleton_ = [[self alloc] init];
+    });
+    return singleton_;
 }
 
-+ (BOOL)canHandleOpenURL:(NSURL *)URL {
-    if ([URL.scheme isEqualToString:[JXAlipayManager sharedAlipay].alipayScheme] && [URL.host isEqualToString:@"safepay"]) {
++ (BOOL)canHandleOpenURL:(NSURL *)url {
+    if ([url.scheme isEqualToString:[JXAlipayManager sharedAlipay].alipayScheme] && [url.host isEqualToString:@"safepay"]) {
         return YES;
     }
     else {
@@ -41,7 +46,7 @@ static JXAlipayManager *singleton_;
 }
 
 - (void)payWithOrderString:(NSString *)orderString result:(void (^)(JXAlipayResult, NSString *, NSString *))result {
-    self.payResult = result;
+    self.payResultCallBack = result;
     [[AlipaySDK defaultService] payOrder:orderString fromScheme:self.alipayScheme callback:^(NSDictionary *resultDic) {
         [self payResultCallBack:resultDic];
     }];
@@ -49,31 +54,26 @@ static JXAlipayManager *singleton_;
 
 - (void)payResultCallBack:(NSDictionary *)resultDic {
     /*
-     9000	订单支付成功
-     8000	正在处理中
-     4000	订单支付失败
-     6001	用户中途取消
-     6002	网络连接出错
+     9000    订单支付成功
+     8000    正在处理中
+     4000    订单支付失败
+     6001    用户中途取消
+     6002    网络连接出错
      */
-    NSString *memo = [self strValue:resultDic[@"memo"]];
-    NSString *resultSign = [self strValue:resultDic[@"result"]];
+    NSString *resultStatus_string = [NSString stringWithFormat:@"%@", resultDic[@"resultStatus"]];
+    NSInteger resultStatus = [resultStatus_string integerValue];
     JXAlipayResult result = JXAlipayResultFailure;
-    switch ([resultDic[@"resultStatus"] integerValue]) {
+    switch (resultStatus) {
         case 9000: { result = JXAlipayResultSuccess; }break;
         case 6001: { result = JXAlipayResultUserCancel; }break;
         default:  break;
     }
-    !self.payResult ? : self.payResult(result, memo, resultSign);
-    self.payResult = nil;
-}
+    
+    NSString *memo = [NSString stringWithFormat:@"%@", resultDic[@"memo"]];
+    NSString *resultSign = [NSString stringWithFormat:@"%@", resultDic[@"result"]];
 
-- (NSString *)strValue:(id)value {
-    if ([value isKindOfClass:[NSString class]] || [value isKindOfClass:[NSNumber class]]) {
-        return [NSString stringWithFormat:@"%@", value];
-    }
-    else {
-        return nil;
-    }
+    JX_BLOCK_EXEC(self.payResultCallBack, result, memo, resultSign);
+    self.payResultCallBack = nil;
 }
 
 @end

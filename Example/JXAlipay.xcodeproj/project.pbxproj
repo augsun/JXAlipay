@@ -24,6 +24,7 @@
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		91632A2D711D001DF7F7F40F /* libPods-JXAlipay_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22074EEED96E479BB13B5180 /* libPods-JXAlipay_Example.a */; };
 		B26AC805FD4AC1FF91C456E8 /* libPods-JXAlipay_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 542F4A6A79051A2BB5CBEA37 /* libPods-JXAlipay_Tests.a */; };
+		C81AE77E2265966B00FD3ED7 /* autoRelease_JXAlipay.py in Resources */ = {isa = PBXBuildFile; fileRef = C81AE77D2265966B00FD3ED7 /* autoRelease_JXAlipay.py */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C81AE77D2265966B00FD3ED7 /* autoRelease_JXAlipay.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = autoRelease_JXAlipay.py; path = ../autoRelease_JXAlipay.py; sourceTree = "<group>"; };
 		CDC3C10F65B1811DC7E3FA1F /* Pods-JXAlipay_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXAlipay_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JXAlipay_Tests/Pods-JXAlipay_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F937FF43902FDAD7DBC2F1DC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -179,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				39443C1462DBE6F988142217 /* JXAlipay.podspec */,
+				C81AE77D2265966B00FD3ED7 /* autoRelease_JXAlipay.py */,
 				F937FF43902FDAD7DBC2F1DC /* README.md */,
 				5BF5E073C962A22F6D82BC81 /* LICENSE */,
 			);
@@ -277,6 +280,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C81AE77E2265966B00FD3ED7 /* autoRelease_JXAlipay.py in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,

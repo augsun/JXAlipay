@@ -16,7 +16,16 @@ typedef NS_ENUM(NSUInteger, JXAlipayResult) {
 };
 
 /**
- 基于 AlipaySDK-iOS 15.5.9 版本封装.
+ 支付结果回调
+
+ @param result 支付结果
+ @param memo 支付宝回调消息
+ @param resultSign 支付宝回调签名串
+ */
+typedef void(^JXAlipayResultCallBack)(JXAlipayResult result, NSString *memo, NSString *resultSign);
+
+/**
+ 基于 AlipaySDK-iOS (版本见 JXAlipay.podspec 中的 s.dependency 'AlipaySDK-iOS', 'X.X.X') 封装.
  */
 @interface JXAlipayManager : NSObject
 
@@ -24,7 +33,7 @@ typedef NS_ENUM(NSUInteger, JXAlipayResult) {
 
 @property (nonatomic, copy) NSString *alipayScheme; ///< 设置在 Info.plist 里的 alipayScheme
 
-+ (BOOL)canHandleOpenURL:(NSURL *)URL; ///< 能否处理该 URL
++ (BOOL)canHandleOpenURL:(NSURL *)url; ///< 能否处理该 URL
 + (BOOL)handleOpenURL:(NSURL *)url; ///< 处理支付回调 URL
 
 /**
@@ -33,6 +42,6 @@ typedef NS_ENUM(NSUInteger, JXAlipayResult) {
  @param orderString 支付订单字符串
  @param result 支付结果
  */
-- (void)payWithOrderString:(NSString *)orderString result:(void(^)(JXAlipayResult result, NSString *memo, NSString *resultSign))result;
+- (void)payWithOrderString:(NSString *)orderString result:(JXAlipayResultCallBack)result;
 
 @end
