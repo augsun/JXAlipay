@@ -1,0 +1,6 @@
+framework module Pods_JXAlipay_Tests {
+  umbrella header "Pods-JXAlipay_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

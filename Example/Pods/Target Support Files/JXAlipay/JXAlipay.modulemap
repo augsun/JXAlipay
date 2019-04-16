@@ -1,0 +1,6 @@
+framework module JXAlipay {
+  umbrella header "JXAlipay-umbrella.h"
+
+  export *
+  module * { export * }
+}

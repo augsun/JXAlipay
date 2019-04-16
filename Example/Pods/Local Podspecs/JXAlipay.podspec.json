@@ -1,0 +1,22 @@
+{
+  "name": "JXAlipay",
+  "version": "0.1.0",
+  "summary": "A short description of JXAlipay.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/452720799@qq.com/JXAlipay",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "452720799@qq.com": "codersun@126.com"
+  },
+  "source": {
+    "git": "https://github.com/452720799@qq.com/JXAlipay.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JXAlipay/Classes/**/*"
+}

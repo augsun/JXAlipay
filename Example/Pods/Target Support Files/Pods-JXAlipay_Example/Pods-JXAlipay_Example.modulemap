@@ -1,0 +1,6 @@
+framework module Pods_JXAlipay_Example {
+  umbrella header "Pods-JXAlipay_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

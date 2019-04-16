@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F359EA212EE41543DAA97B2C6C6B91D /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D010D60FCE1D16A257271CD61656BF /* ReplaceMe.m */; };
+		42ECC70C91E6EACC6F47978454CFE21D /* JXAlipay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC6EF7DFF6699BB568ACD74EED2F38BD /* JXAlipay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F52AB6B678C75AFEBD6E82A6F258CCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		6A8B889095F5A8A63863211CCB2284F3 /* Pods-JXAlipay_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BFD00725FC51C18D857C6A9D4AE2CDA /* Pods-JXAlipay_Tests-dummy.m */; };
+		6C777ED9E88A3C932265E98CFF66DA79 /* Pods-JXAlipay_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93D31706718A47D3B14FDA36C5770BBB /* Pods-JXAlipay_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81D83BC61612F45619E3E559D4D3E963 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		B773D97DAAD195CAFDE73FBC417456E3 /* JXAlipay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF9E00FD228A002B6F32F3AB919F37E /* JXAlipay-dummy.m */; };
+		CE75A4550FA7F82E5A2ED72DE26B7066 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		CF689FE70B0615F2B80A470CD43CCDA5 /* Pods-JXAlipay_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68E6DCC1D37E62C299A33104B6F423BA /* Pods-JXAlipay_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E50E11AB00C0E6AFA5B7C85C58559812 /* Pods-JXAlipay_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A1052D519D471CC9A19A80C4C9A10A /* Pods-JXAlipay_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4ED7E336CE91E0ED8F3AFC7A66A59B8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60AD013D918FAC958132F37F794017EA;
+			remoteInfo = JXAlipay;
+		};
+		FD6C7C52F00098A960751B00663F0BE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DD549FADD5B9C57FB8A5DF16BF6D6A4;
+			remoteInfo = "Pods-JXAlipay_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00475230DDE7E57FB6C22C8424225E57 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		00D010D60FCE1D16A257271CD61656BF /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = JXAlipay/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		1496821B2087D93B5664DC4240FD9428 /* Pods-JXAlipay_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JXAlipay_Example-Info.plist"; sourceTree = "<group>"; };
+		1EF9E00FD228A002B6F32F3AB919F37E /* JXAlipay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JXAlipay-dummy.m"; sourceTree = "<group>"; };
+		3B67CA6DC0EF166476A314EE1C8796FE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		42370B12A62B88F440E3EB2EB72A8570 /* JXAlipay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JXAlipay.framework; path = JXAlipay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E95ABBC3921F4A2647F6148E4387AF5 /* Pods-JXAlipay_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JXAlipay_Example.modulemap"; sourceTree = "<group>"; };
+		4F9AE6B257BADD626D50AF9CB8F8BA8F /* Pods-JXAlipay_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JXAlipay_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		52B83162B14322BE5C776BFC38DD790B /* JXAlipay.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JXAlipay.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		67C0FD9C80027096F2BE668F69F58A1F /* JXAlipay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JXAlipay.modulemap; sourceTree = "<group>"; };
+		68E6DCC1D37E62C299A33104B6F423BA /* Pods-JXAlipay_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JXAlipay_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6F2F5C7DE12C43D5A042D258D82E6786 /* Pods-JXAlipay_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JXAlipay_Example.release.xcconfig"; sourceTree = "<group>"; };
+		704B8BF64CEF8A755DC902FDB2D9025D /* JXAlipay.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JXAlipay.xcconfig; sourceTree = "<group>"; };
+		7632B9647759E0CB756AE373A18CBFDF /* JXAlipay-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXAlipay-prefix.pch"; sourceTree = "<group>"; };
+		7BFD00725FC51C18D857C6A9D4AE2CDA /* Pods-JXAlipay_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JXAlipay_Tests-dummy.m"; sourceTree = "<group>"; };
+		8C209C6F15686B173791765BB3C2A324 /* Pods-JXAlipay_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JXAlipay_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8F3EFB348101181F2AF86D114871421F /* Pods-JXAlipay_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JXAlipay_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93D31706718A47D3B14FDA36C5770BBB /* Pods-JXAlipay_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JXAlipay_Example-umbrella.h"; sourceTree = "<group>"; };
+		980FF54B8D3791BA40730FF223911DC9 /* JXAlipay-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JXAlipay-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A09CAE9AB2C00440311BED31F1DC7E67 /* Pods-JXAlipay_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JXAlipay_Tests.modulemap"; sourceTree = "<group>"; };
+		C26D1B3FEBE441F04F2730B967D467D2 /* Pods-JXAlipay_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JXAlipay_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C32068E0521B09B42D0D53B127515281 /* Pods-JXAlipay_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JXAlipay_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CA306AE982D3AFFFCA8A05C13658083E /* Pods-JXAlipay_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JXAlipay_Tests-Info.plist"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CC4BC00528566BB2C886B0DE4DDA93FB /* Pods-JXAlipay_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JXAlipay_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC6EF7DFF6699BB568ACD74EED2F38BD /* JXAlipay-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JXAlipay-umbrella.h"; sourceTree = "<group>"; };
+		CFD8D4F14A6F60B98EA9A28EE4027601 /* Pods_JXAlipay_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JXAlipay_Tests.framework; path = "Pods-JXAlipay_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9286B92B1F2DC92AEDAC5EB35E34D25 /* Pods_JXAlipay_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JXAlipay_Example.framework; path = "Pods-JXAlipay_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E867A82EAF9EE1B3083EF35014153D22 /* Pods-JXAlipay_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JXAlipay_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F1A1052D519D471CC9A19A80C4C9A10A /* Pods-JXAlipay_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JXAlipay_Example-dummy.m"; sourceTree = "<group>"; };
+		F3BB9482D05CF88171637E773F734D60 /* Pods-JXAlipay_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JXAlipay_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A7D9DABED4C8B72D34B83FC9E200C5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F52AB6B678C75AFEBD6E82A6F258CCB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CBD33BFED8069618D63D5E2FB90C7A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81D83BC61612F45619E3E559D4D3E963 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FB242EE3270B49C3814C68ED31B63CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE75A4550FA7F82E5A2ED72DE26B7066 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14CAF3CA2FB0A0F6DC23DCA89F44D82F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42370B12A62B88F440E3EB2EB72A8570 /* JXAlipay.framework */,
+				D9286B92B1F2DC92AEDAC5EB35E34D25 /* Pods_JXAlipay_Example.framework */,
+				CFD8D4F14A6F60B98EA9A28EE4027601 /* Pods_JXAlipay_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2238F938C634A6B249D37EFC68F19FE5 /* Pods-JXAlipay_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4E95ABBC3921F4A2647F6148E4387AF5 /* Pods-JXAlipay_Example.modulemap */,
+				8C209C6F15686B173791765BB3C2A324 /* Pods-JXAlipay_Example-acknowledgements.markdown */,
+				E867A82EAF9EE1B3083EF35014153D22 /* Pods-JXAlipay_Example-acknowledgements.plist */,
+				F1A1052D519D471CC9A19A80C4C9A10A /* Pods-JXAlipay_Example-dummy.m */,
+				C26D1B3FEBE441F04F2730B967D467D2 /* Pods-JXAlipay_Example-frameworks.sh */,
+				1496821B2087D93B5664DC4240FD9428 /* Pods-JXAlipay_Example-Info.plist */,
+				93D31706718A47D3B14FDA36C5770BBB /* Pods-JXAlipay_Example-umbrella.h */,
+				C32068E0521B09B42D0D53B127515281 /* Pods-JXAlipay_Example.debug.xcconfig */,
+				6F2F5C7DE12C43D5A042D258D82E6786 /* Pods-JXAlipay_Example.release.xcconfig */,
+			);
+			name = "Pods-JXAlipay_Example";
+			path = "Target Support Files/Pods-JXAlipay_Example";
+			sourceTree = "<group>";
+		};
+		31B2EE1B8BEFE38EA62EDE64F162C80A /* Pods-JXAlipay_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A09CAE9AB2C00440311BED31F1DC7E67 /* Pods-JXAlipay_Tests.modulemap */,
+				F3BB9482D05CF88171637E773F734D60 /* Pods-JXAlipay_Tests-acknowledgements.markdown */,
+				8F3EFB348101181F2AF86D114871421F /* Pods-JXAlipay_Tests-acknowledgements.plist */,
+				7BFD00725FC51C18D857C6A9D4AE2CDA /* Pods-JXAlipay_Tests-dummy.m */,
+				CA306AE982D3AFFFCA8A05C13658083E /* Pods-JXAlipay_Tests-Info.plist */,
+				68E6DCC1D37E62C299A33104B6F423BA /* Pods-JXAlipay_Tests-umbrella.h */,
+				CC4BC00528566BB2C886B0DE4DDA93FB /* Pods-JXAlipay_Tests.debug.xcconfig */,
+				4F9AE6B257BADD626D50AF9CB8F8BA8F /* Pods-JXAlipay_Tests.release.xcconfig */,
+			);
+			name = "Pods-JXAlipay_Tests";
+			path = "Target Support Files/Pods-JXAlipay_Tests";
+			sourceTree = "<group>";
+		};
+		87AE79FEFCA45047B5EC9B472D3CC393 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				52B83162B14322BE5C776BFC38DD790B /* JXAlipay.podspec */,
+				3B67CA6DC0EF166476A314EE1C8796FE /* LICENSE */,
+				00475230DDE7E57FB6C22C8424225E57 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9B26111034FF3D69D14A64B57971C478 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				67C0FD9C80027096F2BE668F69F58A1F /* JXAlipay.modulemap */,
+				704B8BF64CEF8A755DC902FDB2D9025D /* JXAlipay.xcconfig */,
+				1EF9E00FD228A002B6F32F3AB919F37E /* JXAlipay-dummy.m */,
+				980FF54B8D3791BA40730FF223911DC9 /* JXAlipay-Info.plist */,
+				7632B9647759E0CB756AE373A18CBFDF /* JXAlipay-prefix.pch */,
+				CC6EF7DFF6699BB568ACD74EED2F38BD /* JXAlipay-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JXAlipay";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				CFE9C1638E769975A56ADCBCF4239953 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				14CAF3CA2FB0A0F6DC23DCA89F44D82F /* Products */,
+				E1CC567863600337ECD156F7DB03CF2D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CFE9C1638E769975A56ADCBCF4239953 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F54223FEFABA1D81CDF92A8461AB62F7 /* JXAlipay */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1CC567863600337ECD156F7DB03CF2D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2238F938C634A6B249D37EFC68F19FE5 /* Pods-JXAlipay_Example */,
+				31B2EE1B8BEFE38EA62EDE64F162C80A /* Pods-JXAlipay_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F54223FEFABA1D81CDF92A8461AB62F7 /* JXAlipay */ = {
+			isa = PBXGroup;
+			children = (
+				00D010D60FCE1D16A257271CD61656BF /* ReplaceMe.m */,
+				87AE79FEFCA45047B5EC9B472D3CC393 /* Pod */,
+				9B26111034FF3D69D14A64B57971C478 /* Support Files */,
+			);
+			name = JXAlipay;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		21A2AC3597B44B45D97C944A13BEBCD3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF689FE70B0615F2B80A470CD43CCDA5 /* Pods-JXAlipay_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F5A8925F88C1EC0E6FFF11D42A16F5D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C777ED9E88A3C932265E98CFF66DA79 /* Pods-JXAlipay_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9701851A1858AD6771F31EE01A9F236 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42ECC70C91E6EACC6F47978454CFE21D /* JXAlipay-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3AC8EF3F46AA0C4D448635B97294D8D1 /* Pods-JXAlipay_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31D3592D867C938E4D505D885392DB5B /* Build configuration list for PBXNativeTarget "Pods-JXAlipay_Tests" */;
+			buildPhases = (
+				21A2AC3597B44B45D97C944A13BEBCD3 /* Headers */,
+				71B68D7319298B7D2F4CAC3F3AFCCFDC /* Sources */,
+				3A7D9DABED4C8B72D34B83FC9E200C5C /* Frameworks */,
+				78A89EC9979F0AA8CF2D3ED9E9C0F9F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				622387DD5A2B390D66A0A93D1D013476 /* PBXTargetDependency */,
+			);
+			name = "Pods-JXAlipay_Tests";
+			productName = "Pods-JXAlipay_Tests";
+			productReference = CFD8D4F14A6F60B98EA9A28EE4027601 /* Pods_JXAlipay_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4DD549FADD5B9C57FB8A5DF16BF6D6A4 /* Pods-JXAlipay_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E5FBD358DEE38D612EF9D68D8BAD2F8 /* Build configuration list for PBXNativeTarget "Pods-JXAlipay_Example" */;
+			buildPhases = (
+				6F5A8925F88C1EC0E6FFF11D42A16F5D /* Headers */,
+				7FA2C8548525107CF5ED053E98914AC7 /* Sources */,
+				3CBD33BFED8069618D63D5E2FB90C7A4 /* Frameworks */,
+				70EEEE9A646696A1B0A20545CF8C63E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FD1A032CFBDD3717B46D54E4E6CD516 /* PBXTargetDependency */,
+			);
+			name = "Pods-JXAlipay_Example";
+			productName = "Pods-JXAlipay_Example";
+			productReference = D9286B92B1F2DC92AEDAC5EB35E34D25 /* Pods_JXAlipay_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		60AD013D918FAC958132F37F794017EA /* JXAlipay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E4C12E1C9D488C9F42007EC5A94D7E2 /* Build configuration list for PBXNativeTarget "JXAlipay" */;
+			buildPhases = (
+				D9701851A1858AD6771F31EE01A9F236 /* Headers */,
+				8F0C6E6058B9B730C3D27238357A05BB /* Sources */,
+				8FB242EE3270B49C3814C68ED31B63CE /* Frameworks */,
+				4ADFD813841E7480592B9346BCFD6D74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JXAlipay;
+			productName = JXAlipay;
+			productReference = 42370B12A62B88F440E3EB2EB72A8570 /* JXAlipay.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 14CAF3CA2FB0A0F6DC23DCA89F44D82F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60AD013D918FAC958132F37F794017EA /* JXAlipay */,
+				4DD549FADD5B9C57FB8A5DF16BF6D6A4 /* Pods-JXAlipay_Example */,
+				3AC8EF3F46AA0C4D448635B97294D8D1 /* Pods-JXAlipay_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4ADFD813841E7480592B9346BCFD6D74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70EEEE9A646696A1B0A20545CF8C63E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78A89EC9979F0AA8CF2D3ED9E9C0F9F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71B68D7319298B7D2F4CAC3F3AFCCFDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A8B889095F5A8A63863211CCB2284F3 /* Pods-JXAlipay_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FA2C8548525107CF5ED053E98914AC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E50E11AB00C0E6AFA5B7C85C58559812 /* Pods-JXAlipay_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0C6E6058B9B730C3D27238357A05BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B773D97DAAD195CAFDE73FBC417456E3 /* JXAlipay-dummy.m in Sources */,
+				0F359EA212EE41543DAA97B2C6C6B91D /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FD1A032CFBDD3717B46D54E4E6CD516 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JXAlipay;
+			target = 60AD013D918FAC958132F37F794017EA /* JXAlipay */;
+			targetProxy = 4ED7E336CE91E0ED8F3AFC7A66A59B8B /* PBXContainerItemProxy */;
+		};
+		622387DD5A2B390D66A0A93D1D013476 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JXAlipay_Example";
+			target = 4DD549FADD5B9C57FB8A5DF16BF6D6A4 /* Pods-JXAlipay_Example */;
+			targetProxy = FD6C7C52F00098A960751B00663F0BE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		1A68CFF42056A4FAF042F1F5826C87D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F9AE6B257BADD626D50AF9CB8F8BA8F /* Pods-JXAlipay_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JXAlipay_Tests/Pods-JXAlipay_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JXAlipay_Tests/Pods-JXAlipay_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		84C789766FC43A6722E7E43E70FF4FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC4BC00528566BB2C886B0DE4DDA93FB /* Pods-JXAlipay_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JXAlipay_Tests/Pods-JXAlipay_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JXAlipay_Tests/Pods-JXAlipay_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9950D9B0301DCC8521D8AE48E48F11F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 704B8BF64CEF8A755DC902FDB2D9025D /* JXAlipay.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JXAlipay/JXAlipay-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JXAlipay/JXAlipay-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JXAlipay/JXAlipay.modulemap";
+				PRODUCT_MODULE_NAME = JXAlipay;
+				PRODUCT_NAME = JXAlipay;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A03E82251296F5C187B9CAF707F15257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 704B8BF64CEF8A755DC902FDB2D9025D /* JXAlipay.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JXAlipay/JXAlipay-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JXAlipay/JXAlipay-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JXAlipay/JXAlipay.modulemap";
+				PRODUCT_MODULE_NAME = JXAlipay;
+				PRODUCT_NAME = JXAlipay;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CEA76F11E94856C2597AE9069A93FFA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C32068E0521B09B42D0D53B127515281 /* Pods-JXAlipay_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JXAlipay_Example/Pods-JXAlipay_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JXAlipay_Example/Pods-JXAlipay_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D74CA7716A074037C4A19BCC10759633 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F2F5C7DE12C43D5A042D258D82E6786 /* Pods-JXAlipay_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JXAlipay_Example/Pods-JXAlipay_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JXAlipay_Example/Pods-JXAlipay_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E5FBD358DEE38D612EF9D68D8BAD2F8 /* Build configuration list for PBXNativeTarget "Pods-JXAlipay_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA76F11E94856C2597AE9069A93FFA1 /* Debug */,
+				D74CA7716A074037C4A19BCC10759633 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31D3592D867C938E4D505D885392DB5B /* Build configuration list for PBXNativeTarget "Pods-JXAlipay_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C789766FC43A6722E7E43E70FF4FBE /* Debug */,
+				1A68CFF42056A4FAF042F1F5826C87D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
+				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E4C12E1C9D488C9F42007EC5A94D7E2 /* Build configuration list for PBXNativeTarget "JXAlipay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9950D9B0301DCC8521D8AE48E48F11F8 /* Debug */,
+				A03E82251296F5C187B9CAF707F15257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

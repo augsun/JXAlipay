@@ -1,0 +1,16 @@
+PODS:
+  - JXAlipay (0.1.0)
+
+DEPENDENCIES:
+  - JXAlipay (from `../`)
+
+EXTERNAL SOURCES:
+  JXAlipay:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JXAlipay: 162301fa9d73538a33993e112be21445c01fce72
+
+PODFILE CHECKSUM: 9dde247c9b9e6c472c7b6476af0fa66903724117
+
+COCOAPODS: 1.6.1
