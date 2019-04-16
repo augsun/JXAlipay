@@ -7,6 +7,7 @@
 //
 
 #import "JXViewController.h"
+#import <AlipaySDK/AlipaySDK.h>
 
 @interface JXViewController ()
 

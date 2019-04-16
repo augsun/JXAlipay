@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "JXAlipayManager.h"
 
 FOUNDATION_EXPORT double JXAlipayVersionNumber;
 FOUNDATION_EXPORT const unsigned char JXAlipayVersionString[];

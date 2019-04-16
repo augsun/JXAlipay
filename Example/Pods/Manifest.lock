@@ -1,16 +1,23 @@
 PODS:
-  - JXAlipay (0.1.0)
+  - AlipaySDK-iOS (15.5.9)
+  - JXAlipay (0.1.0):
+    - AlipaySDK-iOS (= 15.5.9)
 
 DEPENDENCIES:
   - JXAlipay (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AlipaySDK-iOS
 
 EXTERNAL SOURCES:
   JXAlipay:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JXAlipay: 162301fa9d73538a33993e112be21445c01fce72
+  AlipaySDK-iOS: 1c5283b30977a24acecc0114662697f7dc78f618
+  JXAlipay: 4caa4401c144a5e284e7f4060cfb27842e2125a2
 
-PODFILE CHECKSUM: 9dde247c9b9e6c472c7b6476af0fa66903724117
+PODFILE CHECKSUM: de3f6c936f01f30743dd395d4194a06afcd322eb
 
 COCOAPODS: 1.6.1

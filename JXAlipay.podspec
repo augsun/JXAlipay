@@ -21,22 +21,26 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/452720799@qq.com/JXAlipay'
+  s.homepage         = 'https://github.com/augsun'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '452720799@qq.com' => 'codersun@126.com' }
-  s.source           = { :git => 'https://github.com/452720799@qq.com/JXAlipay.git', :tag => s.version.to_s }
+  s.author           = { 'CoderSun' => 'codersun@126.com' }
+  s.source           = { :git => 'https://github.com/augsun/JXAlipay.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
-  s.source_files = 'JXAlipay/Classes/**/*'
+  s.source_files = 'JXAlipay/Classes/**/*.{h,m}'
   
   # s.resource_bundles = {
   #   'JXAlipay' => ['JXAlipay/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'SystemConfiguration', 'QuartzCore', 'CoreText', 'CoreGraphics', 'CoreTelephony', 'CFNetwork', 'CoreMotion', 'AlipaySDK'
+
+  s.libraries = 'z', 'c++'
+
+   s.dependency 'AlipaySDK-iOS', '15.5.9'
+   
 end

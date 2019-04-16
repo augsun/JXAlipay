@@ -1,0 +1,1 @@
+../../../../../JXAlipay/Classes/JXAlipayManager.h

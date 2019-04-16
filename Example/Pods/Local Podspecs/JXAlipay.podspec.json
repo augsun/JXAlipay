@@ -3,20 +3,39 @@
   "version": "0.1.0",
   "summary": "A short description of JXAlipay.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/452720799@qq.com/JXAlipay",
+  "homepage": "https://github.com/augsun",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "452720799@qq.com": "codersun@126.com"
+    "CoderSun": "codersun@126.com"
   },
   "source": {
-    "git": "https://github.com/452720799@qq.com/JXAlipay.git",
+    "git": "https://github.com/augsun/JXAlipay.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "JXAlipay/Classes/**/*"
+  "source_files": "JXAlipay/Classes/**/*.{h,m}",
+  "frameworks": [
+    "SystemConfiguration",
+    "QuartzCore",
+    "CoreText",
+    "CoreGraphics",
+    "CoreTelephony",
+    "CFNetwork",
+    "CoreMotion",
+    "AlipaySDK"
+  ],
+  "libraries": [
+    "z",
+    "c++"
+  ],
+  "dependencies": {
+    "AlipaySDK-iOS": [
+      "15.5.9"
+    ]
+  }
 }
