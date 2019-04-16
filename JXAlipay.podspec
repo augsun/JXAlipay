@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JXAlipay'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'A short description of JXAlipay.'
 
 # This description is used to generate tags and improve search results.
@@ -37,7 +37,7 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks = 'SystemConfiguration', 'QuartzCore', 'CoreText', 'CoreGraphics', 'CoreTelephony', 'CFNetwork', 'CoreMotion', 'AlipaySDK'
+  s.frameworks = 'SystemConfiguration', 'QuartzCore', 'CoreText', 'CoreGraphics', 'CoreTelephony', 'CFNetwork', 'CoreMotion'
 
   s.libraries = 'z', 'c++'
 
