@@ -33,7 +33,7 @@ typedef void(^JXAlipayResultCallback)(JXAlipayResult result, NSString *memo, NSS
 
 + (instancetype)sharedAlipay; ///< 单例
 
-@property (nonatomic, copy) NSString *alipayScheme; ///< 设置在 Info.plist 里的 alipayScheme
+@property (nonatomic, copy) NSString *alipayScheme; ///< 设置在 Info.plist 里的 alipayScheme, 建议在 APP 启动时设置.
 
 + (BOOL)canHandleOpenURL:(NSURL *)url; ///< 能否处理该 URL
 + (BOOL)handleOpenURL:(NSURL *)url; ///< 处理支付回调 URL
