@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 /** 支付结果 */
 typedef NS_ENUM(NSUInteger, JXAlipayResult) {
     JXAlipayResultSuccess, ///< 支付成功
@@ -22,7 +24,7 @@ typedef NS_ENUM(NSUInteger, JXAlipayResult) {
  @param memo 支付宝回调消息
  @param resultSign 支付宝回调签名串
  */
-typedef void(^JXAlipayResultCallBack)(JXAlipayResult result, NSString *memo, NSString *resultSign);
+typedef void(^JXAlipayResultCallback)(JXAlipayResult result, NSString *memo, NSString *resultSign);
 
 /**
  基于 AlipaySDK-iOS (版本见 JXAlipay.podspec 中的 s.dependency 'AlipaySDK-iOS', 'X.X.X') 封装.
@@ -42,6 +44,8 @@ typedef void(^JXAlipayResultCallBack)(JXAlipayResult result, NSString *memo, NSS
  @param orderString 支付订单字符串
  @param result 支付结果
  */
-- (void)payWithOrderString:(NSString *)orderString result:(JXAlipayResultCallBack)result;
+- (void)payWithOrderString:(NSString *)orderString result:(JXAlipayResultCallback)result;
 
 @end
+
+NS_ASSUME_NONNULL_END

@@ -14,7 +14,7 @@
 
 @interface JXAlipayManager ()
 
-@property (nonatomic, copy) JXAlipayResultCallBack payResultCallBack;
+@property (nonatomic, copy) JXAlipayResultCallback payResultCallBack;
 
 @end
 
@@ -45,7 +45,7 @@ static JXAlipayManager *singleton_;
     return YES;
 }
 
-- (void)payWithOrderString:(NSString *)orderString result:(void (^)(JXAlipayResult, NSString *, NSString *))result {
+- (void)payWithOrderString:(NSString *)orderString result:(nonnull JXAlipayResultCallback)result {
     self.payResultCallBack = result;
     [[AlipaySDK defaultService] payOrder:orderString fromScheme:self.alipayScheme callback:^(NSDictionary *resultDic) {
         [self payResultCallBack:resultDic];
@@ -70,6 +70,8 @@ static JXAlipayManager *singleton_;
 }
 
 @end
+
+#undef JX_BLOCK_EXEC
 
 #if 0
 9000    订单支付成功
